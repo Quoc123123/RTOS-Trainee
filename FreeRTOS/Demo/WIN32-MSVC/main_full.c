@@ -176,25 +176,6 @@ static SemaphoreHandle_t xMutexToDelete = NULL;
 
 /*-----------------------------------------------------------*/
 
-void func_1(void) {
-    TaskHandle_t tsk1;
-    while (1) {
-        tsk1 = xTaskGetCurrentTaskHandle();
-        printf("\n %s IS RUNNING \n", pcTaskGetName(tsk1));
-        vTaskDelay(1000 / portTICK_PERIOD_MS);
-    }
-    
-}
-
-void func_2(void) {
-    TaskHandle_t tsk2;
-    while (1) {
-        tsk2 = xTaskGetCurrentTaskHandle();
-        printf("\n %s IS RUNNING \n", pcTaskGetName(tsk2));
-    vTaskDelay(1000);
-    }
-}
-
 
 int main_full( void )
 {
@@ -257,9 +238,6 @@ int main_full( void )
 	/* Create the semaphore that will be deleted in the idle task hook.  This
 	is done purely to test the use of vSemaphoreDelete(). */
 	xMutexToDelete = xSemaphoreCreateMutex();
-
-    xTaskCreate(func_1, "TASK_1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL);
-    xTaskCreate(func_2, "TASK_2", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL);
 
 	/* Start the scheduler itself. */
 	vTaskStartScheduler();
