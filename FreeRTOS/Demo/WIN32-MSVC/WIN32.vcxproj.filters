@@ -50,6 +50,9 @@
     <Filter Include="Demo App Source\Software_Timer_Management">
       <UniqueIdentifier>{3271e3a4-d209-49e6-81c4-08401656e136}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Demo App Source\Interrupt_management">
+      <UniqueIdentifier>{95ba7a58-f005-494d-b0c1-9a44609383c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -180,6 +183,9 @@
     </ClCompile>
     <ClCompile Include="software_timer_management.c">
       <Filter>Demo App Source\Software_Timer_Management</Filter>
+    </ClCompile>
+    <ClCompile Include="interrupt_management.c">
+      <Filter>Demo App Source\Interrupt_management</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
