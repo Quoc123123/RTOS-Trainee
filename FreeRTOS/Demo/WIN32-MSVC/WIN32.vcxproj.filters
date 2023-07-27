@@ -47,6 +47,9 @@
     <Filter Include="Demo App Source\Queue_Management">
       <UniqueIdentifier>{9912ae38-3e92-47ad-87d7-e9a4963dde99}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Demo App Source\Software_Timer_Management">
+      <UniqueIdentifier>{3271e3a4-d209-49e6-81c4-08401656e136}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -174,6 +177,9 @@
     </ClCompile>
     <ClCompile Include="queue_management.c">
       <Filter>Demo App Source\Queue_Management</Filter>
+    </ClCompile>
+    <ClCompile Include="software_timer_management.c">
+      <Filter>Demo App Source\Software_Timer_Management</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

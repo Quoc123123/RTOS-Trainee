@@ -130,6 +130,7 @@
     <ClCompile Include="main_full.c" />
     <ClCompile Include="queue_management.c" />
     <ClCompile Include="Run-time-stats-utils.c" />
+    <ClCompile Include="software_timer_management.c" />
     <ClCompile Include="task_management.c" />
   </ItemGroup>
   <ItemGroup>
