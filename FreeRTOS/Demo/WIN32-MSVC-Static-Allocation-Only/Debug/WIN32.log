@@ -1,0 +1,6 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  main.c
+C:\Users\quocq\Working\gitwork\Study\FreeRTOSv202212.01\FreeRTOSv202212.01\FreeRTOS\Demo\WIN32-MSVC-Static-Allocation-Only\main.c(119,29): warning C4113: 'void (__cdecl *)(void)' differs in parameter lists from 'TaskFunction_t'
+C:\Users\quocq\Working\gitwork\Study\FreeRTOSv202212.01\FreeRTOSv202212.01\FreeRTOS\Demo\WIN32-MSVC-Static-Allocation-Only\main.c(119,22): error C2198: 'xTaskCreateStatic': too few arguments for call
+C:\Users\quocq\Working\gitwork\Study\FreeRTOSv202212.01\FreeRTOSv202212.01\FreeRTOS\Demo\WIN32-MSVC-Static-Allocation-Only\main.c(120,29): warning C4113: 'void (__cdecl *)(void)' differs in parameter lists from 'TaskFunction_t'
+C:\Users\quocq\Working\gitwork\Study\FreeRTOSv202212.01\FreeRTOSv202212.01\FreeRTOS\Demo\WIN32-MSVC-Static-Allocation-Only\main.c(120,22): error C2198: 'xTaskCreateStatic': too few arguments for call

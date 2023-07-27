@@ -1,0 +1,1 @@
+C:\Users\quocq\Working\gitwork\Study\FreeRTOSv202212.01\FreeRTOSv202212.01\FreeRTOS\Demo\WIN32-MSVC-Static-Allocation-Only\Debug\RTOSDemo.exe
