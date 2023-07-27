@@ -44,6 +44,9 @@
     <Filter Include="Demo App Source\Task_Management">
       <UniqueIdentifier>{4ff3ad51-1597-49c0-9517-351c4bfbc036}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Demo App Source\Queue_Management">
+      <UniqueIdentifier>{9912ae38-3e92-47ad-87d7-e9a4963dde99}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -168,6 +171,9 @@
     </ClCompile>
     <ClCompile Include="task_management.c">
       <Filter>Demo App Source\Task_Management</Filter>
+    </ClCompile>
+    <ClCompile Include="queue_management.c">
+      <Filter>Demo App Source\Queue_Management</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

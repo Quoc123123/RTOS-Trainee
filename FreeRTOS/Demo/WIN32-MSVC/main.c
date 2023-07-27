@@ -227,7 +227,8 @@ int main( void )
         }
     #endif /* if ( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 1 ) */
 
-    main_task_management();
+    // main_task_management();
+    main_queue_management();
 
     return 0;
 }

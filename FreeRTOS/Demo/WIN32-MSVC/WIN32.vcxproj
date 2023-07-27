@@ -128,6 +128,7 @@
     </ClCompile>
     <ClCompile Include="main_blinky.c" />
     <ClCompile Include="main_full.c" />
+    <ClCompile Include="queue_management.c" />
     <ClCompile Include="Run-time-stats-utils.c" />
     <ClCompile Include="task_management.c" />
   </ItemGroup>
