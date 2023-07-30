@@ -106,6 +106,7 @@
     <ClCompile Include="..\Common\Minimal\TaskNotify.c" />
     <ClCompile Include="..\Common\Minimal\TaskNotifyArray.c" />
     <ClCompile Include="..\Common\Minimal\timerdemo.c" />
+    <ClCompile Include="deferred_interrupt_processing.c" />
     <ClCompile Include="interrupt_management.c" />
     <ClCompile Include="interrupt_management_countring_semaphore.c" />
     <ClCompile Include="main.c">

@@ -56,6 +56,9 @@
     <Filter Include="Demo App Source\Counting_Semaphore">
       <UniqueIdentifier>{6ec97ca1-8fc5-461f-846c-a10f4c676d66}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Demo App Source\Deferred_interrupt_processing">
+      <UniqueIdentifier>{f8b3e797-2b9b-4de0-8e64-67fe91d58435}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -192,6 +195,9 @@
     </ClCompile>
     <ClCompile Include="interrupt_management_countring_semaphore.c">
       <Filter>Demo App Source\Interrupt_management</Filter>
+    </ClCompile>
+    <ClCompile Include="deferred_interrupt_processing.c">
+      <Filter>Demo App Source\Deferred_interrupt_processing</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
