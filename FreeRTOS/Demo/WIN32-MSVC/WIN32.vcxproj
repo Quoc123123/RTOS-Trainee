@@ -107,6 +107,7 @@
     <ClCompile Include="..\Common\Minimal\TaskNotifyArray.c" />
     <ClCompile Include="..\Common\Minimal\timerdemo.c" />
     <ClCompile Include="interrupt_management.c" />
+    <ClCompile Include="interrupt_management_countring_semaphore.c" />
     <ClCompile Include="main.c">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>

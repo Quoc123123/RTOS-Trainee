@@ -53,6 +53,9 @@
     <Filter Include="Demo App Source\Interrupt_management">
       <UniqueIdentifier>{95ba7a58-f005-494d-b0c1-9a44609383c9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Demo App Source\Counting_Semaphore">
+      <UniqueIdentifier>{6ec97ca1-8fc5-461f-846c-a10f4c676d66}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -185,6 +188,9 @@
       <Filter>Demo App Source\Software_Timer_Management</Filter>
     </ClCompile>
     <ClCompile Include="interrupt_management.c">
+      <Filter>Demo App Source\Interrupt_management</Filter>
+    </ClCompile>
+    <ClCompile Include="interrupt_management_countring_semaphore.c">
       <Filter>Demo App Source\Interrupt_management</Filter>
     </ClCompile>
   </ItemGroup>

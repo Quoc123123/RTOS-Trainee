@@ -230,7 +230,8 @@ int main( void )
     // main_task_management();
     // main_queue_management();
     // main_software_timer_management();
-    main_interrupt_management();
+    // main_interrupt_management();
+    main_counting_semaphore();
 
     return 0;
 }
