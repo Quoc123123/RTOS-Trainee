@@ -232,7 +232,8 @@ int main( void )
     // main_software_timer_management();
     // main_interrupt_management();
     // main_counting_semaphore();
-    deferred_interrupt_processing();
+    // deferred_interrupt_processing();
+    queue_isr();
 
     return 0;
 }

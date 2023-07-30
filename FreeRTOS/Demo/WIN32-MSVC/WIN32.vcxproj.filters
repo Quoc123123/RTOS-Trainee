@@ -59,6 +59,9 @@
     <Filter Include="Demo App Source\Deferred_interrupt_processing">
       <UniqueIdentifier>{f8b3e797-2b9b-4de0-8e64-67fe91d58435}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Demo App Source\queue_isr">
+      <UniqueIdentifier>{f4971686-af2e-4eff-8450-6b7905543480}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -198,6 +201,9 @@
     </ClCompile>
     <ClCompile Include="deferred_interrupt_processing.c">
       <Filter>Demo App Source\Deferred_interrupt_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="queue_isr.c">
+      <Filter>Demo App Source\queue_isr</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
